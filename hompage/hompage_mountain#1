@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>야너여</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <style>
+          .nav {
+            height: 30px;
+            border-bottom: 1px solid black;
+            display: flex;
+            align-items: center;
+          }
+          .nav-right-items{
+            display: flex;
+            margin-left: auto;
+          }
+          .nav-item{
+            margin-left: 10px;
+          }
+          
+        </style>
+      </head>
+
+      <body>
+        <div class="nav">
+          <div class="company-name">
+             yaneoyeo
+          </div>
+          <div class="nav-right-items">
+             <div class="nav-item">HOME</div> 
+             <div class="nav-item">Login</div>
+             <div class="nav-item">찜♥</div>
+             <div class="nav-item">MY야너여</div>
+          </div>
+          
+        </div>
+        
+        <script src="script.js"></script>
+      </body>
+</html>
+
